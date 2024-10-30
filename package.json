@@ -1,11 +1,9 @@
 {
   "name": "web-design-portfolio",
   "version": "1.0.0",
-  "description": "Web Design Portfolio Assignment",
-  "main": "main.js",
+  "description": "Web Design Project",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start" : "live-server public/"
+    "start": "live-server --no-browser ./"
   },
   "keywords": [],
   "author": "",

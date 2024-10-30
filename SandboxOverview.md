@@ -35,9 +35,7 @@ In this document, you will find:
 
 ## Editing Your Project
 
-- Choose the "File Explorer" tab to see your files,
-  and then look for your webpage code under the "public" folder.
-  ![img](./screenshots/github-file-editor.png)
+- Choose the "File Explorer" tab to see your files.
 
 - **index.html**: This is your HTML file. Edit it to change the structure of your web page.
 - **style.css**: This is your CSS file. Modify it to change the styling of your web page.
@@ -90,7 +88,7 @@ You can rename images in GitHub by selecting the file and pressing "Enter" or ch
 Before you upload images to your project, you should make sure you have the right to
 use them, either because you created them yourself, or because you found an image in
 the public domain or with a creative commons license that allows re-use. Wikipedia
-or the Wikimedia commons can be good sources of reusable images. 
+or the Wikimedia commons can be good sources of reusable images.
 
 ### Adding Images to GitHub CodeSpaces
 
@@ -100,10 +98,9 @@ menu and selecting upload.
 
 If you put files in the wrong place, you can drag-and-drop to move them.
 
-Images you want to include in your project should be in the "public" folder. 
+Images you want to include in your project should be in the "public" folder.
 I recommend organizing them inside of a separate "images" folder for easy
 file management.
-
 
 ## Starting from the Terminal
 

@@ -1,0 +1,109 @@
+/***
+ This code runs the overview view in
+ index.html.
+
+ NOT INTENDED TO BE MODIFIED BY STUDENTS
+ (though if you want to change colors or 
+ fonts or something, feel free)
+***/
+
+html {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+main iframe {
+  width: 100%;
+  height: calc(100vh - 68px);
+  border: none;
+}
+nav {
+  margin: auto;
+  display: flex;
+  padding: 10px;
+  align-items: center;
+  justify-content: center;
+}
+nav a {
+  padding: 3px;
+  background-color: #777;
+  color: white;
+  transition: background-color 300ms;
+  border-radius: 5px 5px 0 0;
+  margin-right: 2px;
+  text-decoration: none;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+nav a:active,
+nav a.active {
+  background-color: #0033a0;
+}
+.center img {
+  max-width: calc(min(100%, 100vh - 66px));
+  max-height: calc(min(100%, 100vh - 66px));
+}
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  height: calc(100vh - 66px);
+  box-sizing: border-box;
+}
+.content {
+  opacity: 0;
+  pointer-events: none;
+}
+.visible {
+  display: block;
+  opacity: 1;
+  pointer-events: all;
+  transition: opacity 500ms;
+}
+main {
+  position: relative;
+}
+main div {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: calc(100% - 4px);
+  height: calc(100vh - 66px);
+}
+
+/* Side-by-side code */
+
+.sbs main {
+  display: flex;
+  gap: 10px;
+}
+/* Get rid of absolute positioning we used for cross-fade */
+.sbs div {
+  position: initial;
+  box-sizing: border-box;
+}
+/* Just toggle display : block to display: none
+Old-school style... */
+.sbs .content {
+  display: none;
+}
+.sbs .visible {
+  display: block;
+}
+/* ALWAYS show the original */
+.sbs #original {
+  display: block;
+  opacity: 1;
+}
+/* Don't show the original tab */
+.sbs .orig-link {
+  display: none;
+}

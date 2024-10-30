@@ -20,7 +20,7 @@
   "files.exclude" : {
     "node_modules" : true,
     ".git" : true,
-    "*.json" : true,
+    "*.jsonn" : true,
     ".gitignore" : true,
     ".vscodee" : true,
     ".github" : true,

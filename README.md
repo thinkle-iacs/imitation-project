@@ -1,216 +1,53 @@
-# Choose Your Own Adventure Website
+# Project Imitation
+For this project, you must recreate a print layout in HTML and CSS. 
 
-For an overview of how to use GitHub Codespaces, see my
-[Sandbox Overview](SandboxOverview.md)
+- Elements you will need to pay attention to and copy:
+- Positioning of Elements
+- Color
+- Font (family, weight, style)
+- Images (positioning, relation to other images, etc. — you don't need the exact images copied)
 
-For a walkthrough of starting this project,
-[watch this video](https://youtu.be/_YPh2hvlTXI)
+## Part 0: Pick a Print Design
 
-## Task
+Pick a print layout worthy of copying. Your layout should contain at least 4 distinct layout elements with a significant degree of complexity. For example, do not simply pick a layout which contains 4 pieces of text all of which are perfectly centered on the page. Upload a copy of your image into your repl.it so I can refer to it when I grade your project.
 
-Build a choose-your-own-adventure website.
+### Example 1: Clearly Complex
+Here's an example of a suitably complex design:
+![Image alt complex design](assets/inout.png) 
+This contains a grid of items, each of which has three pieces (image, month, title) and also a title, and finally the logo itself, which is built out of an arrow, a square, and text.
 
-## Why Choose Your Own Adventure?
+### Example 2: Probably too easy 
+![Image alt ACDC cover art](assets/acdc.jpg)
+This ACDC album cover is probably too straightforward. If a student committed to creating the fade effect on "Black Ice" in pure CSS and brought in the borders behind "Black Ice" as unique elements, they could probably convince me this project would be challenging enough, but I'd usually advice they find a different layout to work with.
 
-Choose-your-own-adventure books were one of the first forms of hypertext: a kind of text that you read by navigating a series of links rather than reading from start to finish.
 
-For this assignment, you will build a “Choose Your Own Adventure” website as a throwback to the early days of hypertext. Your story will be written in the second-person perspective. Where print books would have had text like, “To walk into the cave, go to page 38,” your website will use links to direct the reader through the story.
+### Example 3: Surprisingly Challenging!
+![Image alt scrabble box](assets/scrabble.jpg)
+This scrabble box probably looks too simple at first, but it's actually plenty complex, with the "R" from "Scrabble" overlapping the word "Crossword game" and the placement of "Brand" and "Scrabble" over the underline presenting a challenge. In addition, you've got the way the hands and the scrabble bag overlap the pink-outlined box in the background and the board to contend with. In short, this is a legitimately challenging design!
 
-For plot, you can do whatever you find entertaining. Some of it may be a bit contrived in order to include all the required components (lists, images, etc.), but as a rule, the more fun you have with these things, the better they turn out.
+### How to find your own design?
 
-## A Note on AI
+I recommend you try some google image searches with specific items you find interesting.
 
-**Important:** While Generative AI tools such as ChatGPT or Claude.ai can be useful for tasks like this, their results often lack creativity and feel lifeless. **DO NOT** use AI to generate entire webpages for this assignment — this is considered cheating.
+For example, I might search Goolge Images for "magazine cover gravel bike" or "life cereal box." Your goal is to find something that was created for *print* first, so I recommend things like: book jackets, magazine covers, food labels, game boxes, album covers, or posters. If your design relies on a single image, much of your success will depend on you re-creating that image, so I recommend trying to find designs that make ample use of text, or that use images in ways you can easily imitate.
 
-However, you **may** use AI to assist with individual elements, but you must credit it wherever applicable. For example, if you asked AI to generate a long menu for a restaurant, you would need to include a comment in your code to credit the AI.
+## Part 1: Pixel-for-Pixel Copy
 
-### Example:
 
-If you use an AI prompt like _"Write a menu for a Thai restaurant with 67 options, formatted as an HTML list,"_ include a comment like:
+1. Create a basic mock-up of the layout. Fix the size of your layout so that you can create a pixel-perfect representation of the print layout you copied. Your web layout should be the same dimensions as your print layout.
+3. Match color, font, images, and alignments as closely as possible until you've created a pixel-perfect representation.
+4. Write a reflection of what you've succeeded at copying and what you were unable to copy and why. For example, it may be that you didn't have access to the font used in the print layout, but you should explain why you chose the font you did to substitute (what features were the same, etc).
 
-```html
-<!-- AI-generated content: menu list created using ChatGPT -->
-```
+## Part 2: Responsive Adaptation
+1. Create a copy of your pixel-perfect layout and REMOVE the container which fixes the size of the layout.
+1. Create a responsive layout which works well in at least 3 sizes: full browser width, tablet size, and phone layout. You may have to change significant parts of the layout to make the new design responsive.
+1. Write a reflection in which you talk about what you were able to keep and what you were able to lose from the original design as you moved from print to responsive web design. Specifically, pay attention to the key elements of design we have studied:
 
-## Required Components
+- *Contrast*: What elements stand out as different? How did the designer create contrast and draw attention to key elements on the page?
+- *Repetition*: What elements repeat? How did the designer create a sense of unity and rhythm to the page?
+- *Alignment*: What are the strong alignments on the page? Where are alignments broken? 
+- *Grouping*: What elements are grouped together? How are those groupings meaningful?
 
-### Elements:
+### Honors Credit
 
-- 8 separate webpages, starting at `index.html`
-- Correct use of paragraph tags (`<p>`)
-- Correct use of inline formatting tags (`<i>`, `<em>`, `<b>`, `<strong>`)
-- Organized file structure
-- At least 1 image (`<img>` tag)
-- Chapter headings (`<h1>`)
-- At least one properly formatted list (`<ul>` or `<ol>`)
-
-### Design:
-
-- Your site should be:
-  - Coherent and entertaining
-  - Easy to navigate
-  - Logically organized
-- Your code and file structure should be:
-  - Correctly structured
-  - Commented wherever you’ve borrowed code or ideas
-
-### Honors Components (in addition to main components):
-
-- At least one table (`<table>`)
-- Customize the style of the page by modifying the included stylesheet
-- Customize the look and feel of the page to reflect your theme and story choices.
-- Include an embedded multimedia element, such as audio, video, etc.
-- Create a better "affordance" by customizing the :hover style of links.
-- Add an social sharing meta tag so you can control the preview when you share your work.
-
-## Resources
-
-- [Getting Started YouTube Walkthrough](https://youtu.be/_YPh2hvlTXI)
-- [About Links and Paths](https://docs.google.com/document/d/1T0R5oFf0Xy9kXvxdGe-hmfDj3EQ3p8Abij-wXxTKZdE/edit?tab=t.0)
-- [Validity Checker](https://validator.w3.org/nu/) \_(ignore character encoding warnings)
-- [Hinkle’s HTML Basics textbook](https://trinket.io/thinkle_innovationcharter_org/courses/intro-to-html#/html-basics/tags)
-- [W3Schools HTML Tutorial](http://www.w3schools.com/html/default.asp)
-
-### Honors Resources
-
-1. **Tables in HTML**:
-
-   - [HTML Tables Tutorial - W3Schools](https://www.w3schools.com/html/html_tables.asp)
-   - [MDN Web Docs - HTML Tables](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/table)
-
-2. **Embedding Multimedia**:
-
-   - [Embedding Videos in HTML - W3Schools](https://www.w3schools.com/html/html5_video.asp)
-   - [Embedding Audio in HTML - MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/audio)
-
-3. **Customizing Link Hover Effects**:
-
-   - [The :hover selector](https://www.w3schools.com/cssref/sel_hover.php)
-   - [Basic :hover effects w/ transitions](https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_buttons_fade1)
-   - [Fancy hover effects demos](https://css-tricks.com/css-link-hover-effects/)
-
-4. **Adding Social Sharing Meta Tags**:
-   - [What is Open Graph & How can I use it](https://www.freecodecamp.org/news/what-is-open-graph-and-how-can-i-use-it-for-my-website/)
-
-# Choose Your Own Adventure Website Rubric
-
-Grading will happen in two phases:
-
-1. You will get an "experimentation" grade based on the quality of your published website.
-
-2. You will get a "modeling" grade based on your in-class write-up explaining your code and design decisions.
-
-## Published Website Rubric
-
-# Website Evaluation Rubric
-
-Starred items (\*) are for honors students.
-
-<table border="1">
-  <tr>
-    <th>Criteria</th>
-    <th>1 - Beginning</th>
-    <th>2 - Developing</th>
-    <th>3 - Proficient</th>
-    <th>4 - Excellent</th>
-  </tr>
-  <tr>
-    <th>Content</th>
-    <td><!-- story | 1 --></td>
-    <td><!-- story | 2 --></td>
-    <td><ul><li>The story is coherent and engaging.</li>
-      <li>Story includes an image and a list.</li>
-    </ul></td>
-    <td><ul>
-          <li>The story is compelling and creatively uses web elements.</li>
-          <li>Includes multimedia elements that enhance narrative.*</li>
-        </ul></td>
-  </tr>
-  <tr>
-    <th>Navigation & Usability</th>
-    <td><!-- navigation | 1 --></td>
-    <td><!-- navigation | 2 --></td>
-    <td><ul><li>Navigation is logical and straightforward.</li></ul></td>
-    <td><ul>
-          <li>Navigation is intuitive and flows smoothly
-          throughout the adventure.</li>
-          <li>Uses "hover" effects to create clear affordances for user
-          actions and improve engagement.*</li>
-        </ul></td>
-  </tr>
-  <tr>
-    <th>Correctness</th>
-    <td><!-- correctness | 1 -->The site has multiple significant errors when checked.</td>
-    <td><!-- correctness | 2 --></td>
-    <td><ul><li>The site passes validation with minor issues.</li></ul></td>
-    <td><ul>
-          <li>The site is fully compliant and passes all checks.</li>
-        </ul></td>
-  </tr>
-  <tr>
-    <th>Published URL</th>
-    <td><!-- url | 1 -->Site not published / URL doesn't work</td>
-    <td><!-- url | 2 --></td>
-    <td><ul><li>The site is accessible without issues.</li></ul></td>
-    <td><ul>
-          <li>All resources load correctly and consistently.</li>
-          <li>Includes correctly configured social sharing meta tags
-          so that texting or sharing the link brings up a correct site
-          preview.*</li>
-        </ul></td>
-  </tr>
-</table>
-
-## In-Class Write-Up Rubric
-
-This will be an assessment based on an in-class write-up you will do with questions you will not know ahead of time.
-
-<table border="1">
-  <tr>
-    <th>Criteria</th>
-    <th>1 - Beginning</th>
-    <th>2 - Developing</th>
-    <th>3 - Proficient</th>
-    <th>4 - Excellent</th>
-  </tr>
-  <tr>
-    <th>Understanding Links and URLs</th>
-    <td><!-- Links | 1 --></td>
-    <td><!-- Links | 2 --></td>
-    <td><ul><li>Describes how a hyperlink functions to navigate between pages.</li></ul></td>
-    <td><ul>
-          <li>Explains how relative and absolute URLs are used in links.</li>
-          <li>Provides examples of correctly formatted links for local and external web pages.</li>
-        </ul></td>
-  </tr>
-  <tr>
-    <th>Nested Elements</th>
-    <td><!-- Nested | 1 --></td>
-    <td><!-- Nested | 2 --></td>
-    <td><ul><li>Identifies and explains the function of nested elements like lists within lists or cells within a table.</li></ul></td>
-    <td><ul>
-          <li>Demonstrates understanding of complex nesting such as tables within lists or vice versa.</li>
-          <li>Explains the accessibility considerations of using nested structures.</li>
-        </ul></td>
-  </tr>
-  <tr>
-    <th>Meta Tags for Social Sharing (Honors)</th>
-    <td><!-- Meta | 1 --></td>
-    <td><!-- Meta | 2 --></td>
-    <td><ul><li>Describes the basic function of meta tags in HTML.</li></ul></td>
-    <td><ul>
-          <li>Explains how meta tags like 'og:title' and 'og:image' enhance the appearance of shared links on social media.</li>
-          <li>Provides examples of effective meta tags for social media optimization.</li>
-        </ul></td>
-  </tr>
-  <tr>
-    <th>Design Choices (Honors)</th>
-    <td><!-- Design | 1 --></td>
-    <td><!-- Design | 2 --></td>
-    <td><ul><li>Describes general design choices made on the website.</li></ul></td>
-    <td><ul>
-          <li>Provides a detailed rationale for specific design choices including color, layout, and typography.</li>
-          <li>Discusses how these choices impact user experience and accessibility.</li>
-        </ul></td>
-  </tr>
-</table>
+For honors credit, you simply need to pick a suitably challenging initial design. Show Mr. Hinkle what you're thinking and he'll let you know.
