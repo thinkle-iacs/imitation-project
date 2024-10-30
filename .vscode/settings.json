@@ -22,7 +22,7 @@
     ".git" : true,
     "*.json" : true,
     ".gitignore" : true,
-    ".vscode" : true,
+    ".vscodee" : true,
     ".github" : true,
     "screenshots" : true,
   }
