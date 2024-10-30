@@ -5,7 +5,7 @@
 Note, if you're having trouble running the project, try opening a "Terminal" below and typing:
 
 ```sh
-npm run start
+npm start
 ```
 
 ## Project Description
@@ -66,7 +66,6 @@ For example, I might search Goolge Images for "magazine cover gravel bike" or "l
 For honors credit, you will want to add **animation** to your responsive adaptation to emphasize the fact that this is a web project and not a print one. Pick elements from the original and let them transition into place slowly using transforms.
 
 To do so, you can learn to use keyframes. Here are some tutorials:
-
 
 - [Keyframes tutorial](https://www.joshwcomeau.com/animation/keyframe-animations/)
 - [W3 Schools Overview](https://www.w3schools.com/css/css3_animations.asp)

@@ -158,10 +158,16 @@ header.minimized #minimize {
 }
 header {
   transition: transform 300ms;
+  z-index: 2;
 }
 header nav {
   height: 48px;
 }
 .minimized {
   transform: translateY(-48px);
+}
+.popout-link::after {
+  content: "↗";
+  font-size: 8px;
+  vertical-align: super;
 }
