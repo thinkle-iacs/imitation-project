@@ -3,7 +3,7 @@
   "editor.formatOnSave": true,
   "editor.formatOnPaste": true,
   "[html]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "vscode.html-language-features"
   },
   "[css]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
@@ -17,12 +17,13 @@
   "[json]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
+  "prettier.htmlWhitespaceSensitivity": "ignore",
   "files.exclude" : {
     "node_modules" : true,
     ".git" : true,
-    "*.jsonn" : true,
+    "*.json" : true,
     ".gitignore" : true,
-    ".vscodee" : true,
+    ".vscode" : true,
     ".github" : true,
     "screenshots" : true,
   }

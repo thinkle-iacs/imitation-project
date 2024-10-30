@@ -20,31 +20,43 @@ main iframe {
   height: calc(100vh - 68px);
   border: none;
 }
+
+main {
+  padding: 8px;
+}
+
+.sbs main > div {
+  border: 1px inset;
+}
+
 nav {
   margin: auto;
   display: flex;
   padding: 10px;
   align-items: center;
   justify-content: center;
+  border-bottom: 1px solid #ddd; /* Adds a bottom border for the tab container */
 }
+
 nav a {
-  padding: 3px;
-  background-color: #777;
-  color: white;
-  transition: background-color 300ms;
-  border-radius: 5px 5px 0 0;
-  margin-right: 2px;
+  padding: 10px 15px;
+  color: #333;
   text-decoration: none;
-  height: 40px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
+  border-bottom: 3px solid transparent; /* Transparent border initially */
+  margin-right: 20px;
+  font-size: 16px;
+  transition: border-color 300ms, color 300ms;
 }
-nav a:active,
+
+nav a:hover {
+  color: #007bff; /* Change color on hover */
+}
+
 nav a.active {
-  background-color: #0033a0;
+  border-bottom: 3px solid #007bff; /* Underline active tab */
+  color: #007bff;
 }
+
 .center img {
   max-width: calc(min(100%, 100vh - 66px));
   max-height: calc(min(100%, 100vh - 66px));
@@ -103,7 +115,53 @@ Old-school style... */
   display: block;
   opacity: 1;
 }
+.orig-link {
+  transition: opacity 300ms;
+}
 /* Don't show the original tab */
 .sbs .orig-link {
-  display: none;
+  opacity: 0;
+}
+.sbs-toggle {
+  transition: opacity 300ms;
+}
+.original .sbs-toggle {
+  opacity: 0;
+}
+
+/* Popout link code */
+header {
+  position: sticky;
+  top: 0;
+}
+.popout-bar {
+  opacity: 0;
+  transition: opacity 300ms;
+}
+header:hover .popout-bar {
+  opacity: 1;
+}
+.popout-bar {
+  display: flex;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+#minimize {
+  transition: transform 300ms;
+  background: transparent;
+  border: none;
+}
+header.minimized #minimize {
+  transform: rotate(180deg);
+}
+header {
+  transition: transform 300ms;
+}
+header nav {
+  height: 48px;
+}
+.minimized {
+  transform: translateY(-48px);
 }
