@@ -5,7 +5,10 @@
       "label": "Start Live Server",
       "type": "shell",
       "command": "npm",
-      "args": ["run", "start"],
+      "args": [
+        "run",
+        "start"
+      ],
       "isBackground": false,
       "problemMatcher": [],
       "group": {
