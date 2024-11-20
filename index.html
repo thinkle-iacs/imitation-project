@@ -19,12 +19,18 @@
   <link href="do_not_modify/style.css" rel="stylesheet" type="text/css" />
 </head>
 
-<body>
+<body class="imitation">
   <header>
     <nav>
       <a class="orig-link" href="#original">Original</a>
-      <a href="#imitation" class="active">Imitation</a>
-      <a href="#responsive" class="">Responsive Version</a>
+      <span>
+        <a href="#imitation" class="active">Imitation</a>
+        <a href="imitation.html" class="popout-link imitation" target="_blank"></a>
+      </span>
+      <span>
+        <a href="#responsive" class="">Responsive Version</a>
+        <a href="responsive.html" class="popout-link responsive" target="_blank"></a>
+      </span>
       <label class="sbs-toggle">
         <input type="checkbox" id="sbs">
         Side-by-side
@@ -36,8 +42,8 @@
           class="feather feather-arrow-up" viewBox="0 0 24 12">
           <polyline points="5 12 12 5 19 12"></polyline>
         </svg></button>
-      <a href="imitation.html" class="popout-link">Imitation</a>
-      <a href="responsive.html" class="popout-link">Responsive</a>
+
+
     </div>
   </header>
   <main>
@@ -46,7 +52,8 @@
         <!-- IMAGE TAG BELOW -->
         <!-- FIX SRC= AS NEEDED -->
         <figure>
-          <img src="original.jpg" />
+          <img src="https://placehold.co/800x1600?text=Big+Picture" />
+          <!--<img src="original.jpg" />-->
           <figcaption>
             Original Layout from [note where the layout came from here]
           </figcaption>
