@@ -53,6 +53,12 @@ document.querySelector("#sbs").onchange = (e) => {
   }
 };
 
+if (document.querySelector("#sbs").checked) {
+  let body = document.querySelector("body");
+  body.classList.add("sbs");
+}
+
+
 /* Minimizer */
 document.querySelector("#minimize").onclick = (e) => {
   let header = document.querySelector("header");
