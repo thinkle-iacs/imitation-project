@@ -6,25 +6,21 @@
     "editor.defaultFormatter": "vscode.html-language-features"
   },
   "[css]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "vscode.css-language-features"
   },
   "[javascript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[markdown]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "vscode.typescript-language-features"
   },
   "[json]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "vscode.json-language-features"
   },
-  "prettier.htmlWhitespaceSensitivity": "ignore",
-  "files.exclude" : {
-    "node_modules" : true,
-    ".git" : true,
-    "*.json" : true,
-    ".gitignore" : true,
-    ".vscode" : true,
-    ".github" : true,
-    "screenshots" : true,
+  "files.exclude": {
+    "node_modules": true,
+    ".git": true,
+    "*.json": true,
+    ".gitignore": true,
+    ".vscode": true,
+    ".github": true,
+    "screenshots": true
   }
 }

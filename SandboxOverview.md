@@ -50,8 +50,10 @@ You don't need to worry about the following files and folders. They are used to 
 
 ## Adding Extensions
 
-You should be prompted to install extensions when this Codespace loads -- say yes and you'll
-get automatic code formatting set up as well as github copilot (an AI tool to try to help you code). (To get CoPilot you'll need to have verified your student account with github)
+The project recommends Live Share for collaborating with your teacher or classmates.
+HTML, CSS, JavaScript, and JSON formatting use VS Code's built-in tools; no separate formatter
+extension is needed. Use the AI tools available through your coding platform, and follow the
+project's citation and visual-verification requirements in `README.md`.
 
 ## Saving Your Work to Version Control
 
