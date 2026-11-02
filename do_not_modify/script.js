@@ -9,13 +9,13 @@
  ***/
 
 /* Turn all links into tab-switching magic */
-document.querySelectorAll("a").forEach((a) => {
+document.querySelectorAll('nav a[href^="#"]').forEach((a) => {
   // Create custom click handlers
   a.onclick = (e) => {
     /* The href= attribute must be a valid selector */
     const selector = a.getAttribute("href");
     // Remove other active attributes
-    document.querySelectorAll("a").forEach((l) => {
+    document.querySelectorAll('nav a[href^="#"]').forEach((l) => {
       l.classList.remove("active");
     });
     // Make the link we clicked active

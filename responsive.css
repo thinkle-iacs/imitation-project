@@ -1,7 +1,7 @@
 /* Code for all screen sizes */
 
 /* BEGIN MOBILE RULES */
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
   /* Code for mobile phones only: */
 
   /* Mobile label */

@@ -15,18 +15,17 @@ In this document, you will find:
 
 ## Running the Project
 
-1. Open the project in VS Code.
-2. Click on the "Run and Debug" button on the sidebar (it looks like a play button).
-3. Select "Open with Live Server" from the drop-down menu.
-4. Click the green play button. This will start a local server and open your project in a web browser.
-5. If this fails, you could try to [start from the terminal instead](#starting-from-the-terminal)
-   ![play-screenshot](screenshots/play-github.png)
+1. Open the terminal and run `npm install` once.
+2. Run `npm start`. Leave that terminal running.
+3. In Codespaces, open the Ports tab and open port **5500** in a browser.
+   Locally, visit http://localhost:5500.
+4. Save edits to refresh the preview. Press Ctrl+C to stop the server.
 
 ## Viewing Your Project
 
 ![Screenshot of Ports view](./screenshots/ports-github.png)
 
-- You should see a pop up asking if you want to open the page after you hit "play" to run your project. If you click on it, it will open your webpage in a new tab.
+- You should see a pop up asking if you want to open the page after you run `npm start`. If you click on it, it will open your webpage in a new tab.
 - You can click on "Ports" at the bottom of the screen to see the web connection on your computer.
 
   If you hover over the "Forwarded Address" column, you'll see a "side-by-side" icon that will show
@@ -37,8 +36,10 @@ In this document, you will find:
 
 - Choose the "File Explorer" tab to see your files.
 
-- **index.html**: This is your HTML file. Edit it to change the structure of your web page.
-- **style.css**: This is your CSS file. Modify it to change the styling of your web page.
+- **imitation.html** and **responsive.html**: Edit these to build your two designs.
+- **imitation.css** and **responsive.css**: Style your fixed-size and responsive designs.
+- **index.html**: The comparison viewer; change only the reference image, alt text, and source caption.
+- **citations.html**: Record sources and AI assistance.
 
 ### Files You Can Ignore
 
@@ -98,15 +99,10 @@ menu and selecting upload.
 
 If you put files in the wrong place, you can drag-and-drop to move them.
 
-Images you want to include in your project should be in the "public" folder.
+Images you want to include in your project can go in an `images/` folder at the repository root.
 I recommend organizing them inside of a separate "images" folder for easy
 file management.
 
 ## Starting from the Terminal
 
-As an alternative to using the "Play" button, you can also
-type a command to run your project locally.
-
-1. Open the terminal in VS Code (use the "Terminal" tab at the bottom)
-2. Type `npm start` and press Enter. This will start a local server and open your project in a web browser.
-   ![Terminal Screenshot](./screenshots/terminal-github.png)
+Use `npm install` followed by `npm start`, then open port 5500 as described above.

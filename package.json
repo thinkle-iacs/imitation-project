@@ -1,9 +1,9 @@
 {
-  "name": "web-design-portfolio",
+  "name": "imitation-project",
   "version": "1.0.0",
-  "description": "Web Design Project",
+  "description": "Print imitation and responsive web design project",
   "scripts": {
-    "start": "live-server --no-browser ./"
+    "start": "npx --yes live-server --no-browser --port=5500 ."
   },
   "keywords": [],
   "author": "",

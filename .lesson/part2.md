@@ -1,27 +1,24 @@
 # Getting Started
 
-This project is designed to make it easy to see three different things:
+Run `npm install` once, then `npm start`. Open port 5500 in Codespaces or
+http://localhost:5500 locally.
 
-1. The photo of the design you chose (upload it here)
-1. Your pixel-for-pixel imitation (in imitation.html/imitation.css)
-1. Your responsive adaptation (in responsive.html / responsive.css)
+The viewer in `index.html` shows your Original, Imitation, and Responsive Version.
+Use Side-by-side to compare the original with the selected design. The ↗ links open
+individual pages for checking dimensions and responsive widths.
 
-_You should not have to modify the code in index.html or style.css or in script.js _
+1. Pick two or three print layouts and ask your teacher to approve one with enough complexity.
+2. Upload your reference to an `images/` folder. Use a simple filename such as `original.jpg`.
+3. In `index.html`, replace the example image's `src` and `alt`, and add its source in the caption.
+   Also record the source in `citations.html`.
+4. Open Original and confirm your image appears.
+5. Set a fixed size for `main` in `imitation.css` that matches your reference's proportions.
+6. Build the content and layout in `imitation.html` and `imitation.css`. Match hierarchy,
+   alignment, spacing, type, colors, and imagery. Substitute images may be used with citations.
+7. Compare, identify specific differences, and refine. AI can help implement changes you request;
+   you must personally check the result. Record observations and screenshots in `TODO.md`.
+8. Copy your design into `responsive.html` and `responsive.css`, remove its fixed outer dimensions,
+   and adapt it for phone, tablet, and desktop widths. Open it in its own tab for accurate checks.
 
-Your first steps are:
-
-1. Pick a layout. Your layout needs to be the right level of complexity -- I recommend picking 2 or 3 alternatives and asking your teacher for help choosing before committing. Your layout should be a print design done by a professional (i.e. a published magazing layout, advertisement or product box)
-1. Upload an image of your layout (cell phone picture of print layout or image download)
-1. Rename the uploaded file something easy to type
-1. Modify the `<img src="original.jpg">` tag so the src= points to _your_ image. Then confirm
-   the "Original" tab works when you click "Run"
-
-Your second steps are:
-
-1. Set the _size_ of your layout in `imitation.css` so that you have a rectangle that is the
-   correct dimensions for your layout. Measure the original so you get this correct.
-1. Copy all the text from your layout into elements in `imitation.html`. If you have long paragraphs, you can use Lorem Ipsum as needed to fill in, but make sure any major text items are actually typed out correctly.
-1. Recreate the spatial layout correctly modifying `imitation.html` and `imitation.css` as needed to get the items positioned correctly.
-1. Use screenshots or image search to find images that you can use that will be equivalents to the images in your original ad. You can edit the images from the original if possible, or use google images searches to find something similar, or take pictures of your own to use as substitutes.
-
-Your final step is to continue modifying CSS, paying attention to fonts, colors, images, and layout.
+Keep the viewer structure and `do_not_modify/` intact. Review the full requirements and
+AI citation expectations in [README.md](../README.md).

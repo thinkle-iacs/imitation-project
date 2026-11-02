@@ -59,7 +59,7 @@ nav a.active {
 
 .center figure {
   display: grid;
-  grid-template-rows: 1fr auto; /* Image stretches, caption gets auto height */
+  grid-template-rows: minmax(0, 1fr) auto; /* Image stretches, caption gets auto height */
   grid-template-columns: 1fr; /* Single column */
   align-items: center; /* Align items within their grid cells */
   justify-items: center;
@@ -72,7 +72,7 @@ nav a.active {
 
 .center img {
   max-width: 100%; /* Ensure the image doesn’t overflow horizontally */
-  min-height: 100%; /* Force the image to fill the available height */
+  min-height: 0; /* Let the image fit above its caption */
   max-height: 100%; /* Ensure the image doesn’t overflow vertically */
   width: auto; /* Maintain aspect ratio */
   object-fit: contain; /* Ensure the image fits nicely */
@@ -210,3 +210,8 @@ header nav {
   font-size: 8px;
   vertical-align: super;
 }
+
+/* Keep the reference image and caption together at any source aspect ratio. */
+.center figure { height: 100%; }
+.center img { height: 100%; }
+.sbs main > .content { flex: 1 1 0; min-width: 0; }
