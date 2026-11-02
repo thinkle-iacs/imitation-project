@@ -1,6 +1,6 @@
 # Getting Started
 
-Run `npm install` once, then `npm start`. Open port 5500 in Codespaces or
+Run `npm start`. Open port 5500 in Codespaces or
 http://localhost:5500 locally.
 
 The viewer in `index.html` shows your Original, Imitation, and Responsive Version.

@@ -5,17 +5,20 @@
 Open your own assignment repository in Codespaces (or VS Code). In the terminal:
 
 ```sh
-npm install
 npm start
 ```
 
 Open port **5500** from the Ports tab in Codespaces, or visit http://localhost:5500 locally.
 Keep the terminal running; press Ctrl+C to stop. Save a file to refresh the preview.
-If Live Server is missing, run `npm install` again. You can also use Run and Debug → Start Live Server.
+Dependencies are installed automatically by your coding platform. You can also use Run and Debug → Start Live Server.
 
 - [Getting started with the comparison viewer](./.lesson/part2.md)
 - [Codespaces and saving your work](./SandboxOverview.md)
 - [Your work plan and visual checks](./TODO.md)
+
+## Video walkthroughs
+
+[Mr. H’s Imitation Project playlist](https://www.youtube.com/playlist?list=PLZyDHluZ21uY)
 
 ## Project Description
 
@@ -109,14 +112,3 @@ student-written JavaScript. Flexbox, grid, and positioning are available for thi
 Keep `do_not_modify/` and the comparison viewer intact; in `index.html`, change only the
 reference image, its alt text, and source caption. Your design work belongs in `imitation.html` /
 `imitation.css` and `responsive.html` / `responsive.css`.
-
-## Teacher: preparing each year's starter
-
-Maintain the reusable source at [thinkle-iacs/imitation-project](https://github.com/thinkle-iacs/imitation-project).
-After updating and checking it, create a separate template repository in the current year's
-organization (for example `IACS-26-27/imitation-project`), then use that year's repository
-as the GitHub Classroom starter. Keep year-specific assignment links in the shared-drive
-Project Imitation Links doc. Do not overwrite prior years' repositories.
-The [2024 demo](https://github.com/thinkle-iacs/imitation-project-demo) is a historical example,
-not the current starter. GitHub Pages uses the existing workflow with repository root as its
-artifact; choose GitHub Actions as the Pages source when enabling publishing.

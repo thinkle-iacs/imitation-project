@@ -38,7 +38,7 @@ adaptation. Explain the choices so the student can understand and direct the wor
 - Reconstruct the layout with meaningful HTML and CSS. Do not use a flattened screenshot
   of the original as the finished imitation, or replace all content with a background image.
 - Keep links to `citations.html`. Cite substitute assets and include useful image alt text.
-- Start with `npm install`, then `npm start`; preview port 5500. No build step is needed.
+- Dependencies are installed automatically by the coding platform. Run `npm start`; preview port 5500. No build step is needed.
 
 ## Required citations
 

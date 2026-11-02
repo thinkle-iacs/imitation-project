@@ -15,11 +15,10 @@ In this document, you will find:
 
 ## Running the Project
 
-1. Open the terminal and run `npm install` once.
-2. Run `npm start`. Leave that terminal running.
-3. In Codespaces, open the Ports tab and open port **5500** in a browser.
+1. Open the terminal and run `npm start`. Leave that terminal running.
+2. In Codespaces, open the Ports tab and open port **5500** in a browser.
    Locally, visit http://localhost:5500.
-4. Save edits to refresh the preview. Press Ctrl+C to stop the server.
+3. Save edits to refresh the preview. Press Ctrl+C to stop the server.
 
 ## Viewing Your Project
 
@@ -105,4 +104,4 @@ file management.
 
 ## Starting from the Terminal
 
-Use `npm install` followed by `npm start`, then open port 5500 as described above.
+Use `npm start`, then open port 5500 as described above.
